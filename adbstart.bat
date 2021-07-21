@@ -15,6 +15,7 @@ adb shell pm uninstall -k --user 0 com.coloros.assistantscreen
 adb shell pm uninstall -k --user 0 com.coloros.floatassistant
 adb shell pm uninstall -k --user 0 com.coloros.gamespace
 adb shell pm uninstall -k --user 0 coloros.gamespaceui
+adb shell pm uninstall -k --user 0 com.coloros.childrenspace
 adb shell pm uninstall -k --user 0 com.facebook.appmanager
 adb shell pm uninstall -k --user 0 com.facebook.services
 adb shell pm uninstall -k --user 0 com.facebook.system
@@ -26,20 +27,19 @@ adb shell pm uninstall -k --user 0 com.heytap.cloud
 adb shell pm uninstall -k --user 0 com.heytap.datamigration
 adb shell pm uninstall -k --user 0 com.heytap.habit.analysis
 adb shell pm uninstall -k --user 0 com.heytap.usercenter.overlay
+adb shell pm uninstall -k --user 0 com.heytap.datamigration
+adb shell pm uninstall -k --user 0 com.heytap.habit.analysis
+adb shell pm uninstall -k --user 0 com.heytap.usercenter
 adb shell pm uninstall -k --user 0 com.oppo.market
+adb shell pm uninstall -k --user 0 com.oppo.lfeh
+adb shell pm uninstall -k --user 0 com.oppo.aod
 adb shell pm uninstall -k --user 0 com.nearme.browser
 adb shell pm uninstall -k --user 0 com.nearme.themestore
-adb shell pm uninstall -k --user 0 com.heytap.usercenter
-adb shell pm uninstall -k --user 0 com.oppo.aod
-adb shell pm uninstall -k --user 0 com.oppo.lfeh
 adb shell pm uninstall -k --user 0 com.mediatek.omacp
 adb shell pm uninstall -k --user 0 com.opera.preinstall
 adb shell pm uninstall -k --user 0 com.tencent.soter.soterserver
 adb shell pm uninstall -k --user 0 org.kman.AquaMail
-adb shell pm uninstall -k --user 0 com.heytap.datamigration
-adb shell pm uninstall -k --user 0 com.heytap.habit.analysis
 adb shell pm uninstall -k --user 0 com.dropboxchmod
-adb shell pm uninstall -k --user 0 com.coloros.childrenspace
 echo Can't delete these, don't know why.
 adb shell pm uninstall -k --user 0 com.heytap.market
 adb shell pm uninstall -k --user 0 com.heytap.themestore
