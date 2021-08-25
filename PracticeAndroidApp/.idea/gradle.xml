@@ -5,8 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Program Files/Android/Gradle/gradle-7.2-all/gradle-7.2" />
+        <option name="gradleJvm" value="JDK" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />

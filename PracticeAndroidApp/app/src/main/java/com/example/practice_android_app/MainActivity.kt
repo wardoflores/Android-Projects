@@ -1,12 +1,12 @@
 package com.example.practice_android_app
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.content.Intent
-import android.provider.AlarmClock.EXTRA_MESSAGE
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
+const val EXTRA_MESSAGE = "com.example.practice_android_app.MESSAGE"
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
