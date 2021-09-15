@@ -14,6 +14,7 @@ adb shell pm list packages -s
 adb shell pm uninstall -k --user 0 com.coloros.assistantscreen
 adb shell pm uninstall -k --user 0 com.coloros.floatassistant
 adb shell pm uninstall -k --user 0 com.coloros.gamespace
+adb shell pm uninstall -k --user 0 com.coloros.filemanager
 adb shell pm uninstall -k --user 0 coloros.gamespaceui
 adb shell pm uninstall -k --user 0 com.coloros.childrenspace
 adb shell pm uninstall -k --user 0 com.facebook.appmanager
